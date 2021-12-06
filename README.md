@@ -13,6 +13,7 @@ g++ -o ./a.exe ./a.cpp
 
 ## Days
 * ✅**Day 1:** Simple _constructive_ problem.
+* ✅**Day 2:** Simple _constructive_ problem. Not harder then the first one.
 
 ## License
 MIT
