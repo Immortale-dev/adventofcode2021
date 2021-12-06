@@ -14,7 +14,8 @@ g++ -o ./a.exe ./a.cpp
 ## Days
 * ✅**Day 1:** Simple _constructive_ problem.
 * ✅**Day 2:** Simple _constructive_ problem. Not harder then the first one.
-* ✅**Day 3:** constructive problem + bit operations.
+* ✅**Day 3:** _Constructive_ problem + bit operations.
+* ✅**Day 4:** _Constructive_ problem could be optimized to work faster, but the input is small enough for the _brute force_.
 
 ## License
 MIT
