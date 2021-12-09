@@ -18,8 +18,9 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 4:** _Constructive_ problem could be optimized to work faster, but the input is small enough for the _brute force_.
 * ✅**Day 5:** _Constructive_ problem. Input size is small enough to build a grid and fill it with numbers.
 * ✅**Day 6:** Simple _constructive_ with requirement of some optimisations for the second part.
-* ✅**Day 7:** First part is _finding median_ problem, and the second one probably could be solved in some pretty way, but the input is small enough to _brute force_
+* ✅**Day 7:** First part is _finding median_ problem, and the second one probably could be solved in some pretty way, but the input is small enough to _brute force_.
 * ✅**Day 8:** Could be solved with _brute force_ in just O(7! * n) but you get more fun by figuring out digit parts relations. :P
+* ✅**Day 9:** Simple _bfs_ problem.
 
 ## License
 MIT
