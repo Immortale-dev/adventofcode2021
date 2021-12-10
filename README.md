@@ -21,6 +21,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 7:** First part is _finding median_ problem, and the second one probably could be solved in some pretty way, but the input is small enough to _brute force_.
 * ✅**Day 8:** Could be solved with _brute force_ in just O(7! * n) but you get more fun by figuring out digit parts relations. :P
 * ✅**Day 9:** Simple _bfs_ problem.
+* ✅**Day 10:** Pretty simple problem that could be solved using _stacks_.
 
 ## License
 MIT
