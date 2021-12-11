@@ -22,6 +22,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 8:** Could be solved with _brute force_ in just O(7! * n) but you get more fun by figuring out digit parts relations. :P
 * ✅**Day 9:** Simple _bfs_ problem.
 * ✅**Day 10:** Pretty simple problem that could be solved using _stacks_.
+* ✅**Day 11:** _Constructive problem_ with with a bit of _recursion_. P.S. left some comments for visualisation. ;)
 
 ## License
 MIT
