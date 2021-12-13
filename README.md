@@ -23,7 +23,8 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 9:** Simple _bfs_ problem.
 * ✅**Day 10:** Pretty simple problem that could be solved using _stacks_.
 * ✅**Day 11:** _Constructive problem_ with with a bit of _recursion_. P.S. left some comments for visualisation. ;)
-* ✅**Day 12:** Simple _graph_ problem. Solved using _dfs_. 
+* ✅**Day 12:** Simple _graph_ problem. Solved using _dfs_.
+* ✅**Day 13:** Somple _custruction_ problem. P.S. better to compile with `-O3` flag. :P
 
 ## License
 MIT
