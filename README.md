@@ -22,9 +22,10 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 8:** Could be solved with _brute force_ in just O(7! * n) but you get more fun by figuring out digit parts relations. :P
 * ✅**Day 9:** Simple _bfs_ problem.
 * ✅**Day 10:** Pretty simple problem that could be solved using _stacks_.
-* ✅**Day 11:** _Constructive problem_ with with a bit of _recursion_. P.S. left some comments for visualisation. ;)
+* ✅**Day 11:** _Constructive problem_ with a bit of _recursion_. P.S. left some comments for visualisation. ;)
 * ✅**Day 12:** Simple _graph_ problem. Solved using _dfs_.
-* ✅**Day 13:** Somple _custruction_ problem. P.S. better to compile with `-O3` flag. :P
+* ✅**Day 13:** Simple _custructive_ problem. P.S. better to compile with `-O3` flag. :P
+* ✅**Day 14:** Pretty interesting problem. First part is simple _constructive_, but the second part needs some optimisations required (similar to day 6). :P
 
 ## License
 MIT
