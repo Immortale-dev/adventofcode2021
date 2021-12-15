@@ -25,7 +25,8 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 11:** _Constructive problem_ with a bit of _recursion_. P.S. left some comments for visualisation. ;)
 * ✅**Day 12:** Simple _graph_ problem. Solved using _dfs_.
 * ✅**Day 13:** Simple _custructive_ problem. P.S. better to compile with `-O3` flag. :P
-* ✅**Day 14:** Pretty interesting problem. First part is simple _constructive_, but the second part needs some optimisations required (similar to day 6). :P
+* ✅**Day 14:** Pretty interesting problem. First part is simple _constructive_, but for the second part some optimisations required (similar to day 6). :P
+* ✅**Day 15:** Simple _shortest path finding_ problem. Solved using _bfs_.
 
 ## License
 MIT
