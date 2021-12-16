@@ -27,6 +27,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 13:** Simple _custructive_ problem. P.S. better to compile with `-O3` flag. :P
 * ✅**Day 14:** Pretty interesting problem. First part is simple _constructive_, but for the second part some optimisations required (similar to day 6). :P
 * ✅**Day 15:** Simple _shortest path finding_ problem. Solved using _bfs_.
+* ✅**Day 16:** The most beautiful _constructive_ problem so far! It includes work for parsing bitstream, building multi level structures, and travel these structures with _dfs_. ^_^
 
 ## License
 MIT
