@@ -28,6 +28,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 14:** Pretty interesting problem. First part is simple _constructive_, but for the second part some optimisations required (similar to day 6). :P
 * ✅**Day 15:** Simple _shortest path finding_ problem. Solved using _bfs_.
 * ✅**Day 16:** The most beautiful _constructive_ problem so far! It includes work for parsing bitstream, building multi level structures, and travel these structures with _dfs_. ^_^
+* ✅**Day 17:** Pretty werid _constructive_ problem. Could be solved in more elegant way, but input is small enough to _brute force_. :\ 
 
 ## License
 MIT
