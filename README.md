@@ -32,6 +32,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 18:** Pretty interesting _constructive_ problem. Should be solved in the same beautiful way as problem from day 16, but I was too lazy, so my solution is a bit hacky :{
 * ✅**Day 19:** The hardest _constructive_ problem so far! Needs a lot of code to be written, it's hard to debug, but I liked it! P.S. better to compile with `-O3` flag, as finding solution might take some time. I've put the indicater to see the progress :D
 * ✅**Day 20:** Pretty easy _constructive_ problem. Nothing special. Be aware of the first and last bit of enhance map. ;)
+* ✅**Day 21:** First part is simple _constructive_, but the second part is pretty nice _dp_ problem! I've truly enjoyed it. :']
 
 ## License
 MIT
