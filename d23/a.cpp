@@ -80,47 +80,6 @@ ll dfs_bt(vector<vector<char>> r, vector<char> h, int RH) {
 				r[tor][lvl] = c;
 			}
 		}
-		
-		// Check if you can pass to the destination from room
-		for(int i=0;i<4;i++){
-			bool lgood = true;
-			for(int l=RH-1;l>=0;l--){
-				if(r[i][l]-'A' != i && r[i][l] != '.') lgood = false;
-			}
-			if(lgood) continue;
-			for(int k=0;k<RH;k++){
-				char c = r[i][k];
-				if(c == '.') continue;
-				if(k && r[i][k-1] != '.') continue; // cant move
-				int tor = c-'A';
-				int from = i*2+2;
-				int to = (tor+1)*2;
-				
-				bool good = true;
-				for(int j=from;j!=to;j+=(to<from ? -1 : 1)){
-					if(h[j] != '.') {
-						good = false;
-						break;
-					}
-				}
-				int lvl;
-				for(lvl=RH-1;lvl>=0;lvl--){
-					if(r[tor][lvl] == '.') break;
-					if(r[tor][lvl] != c) good = false;
-				}
-				if(good){
-					if(from == to) continue;
-					was = true;
-					fs += abs(to-from)*scores[tor];
-					// exit the room
-					fs += (k+1)*scores[tor];
-					r[i][k] = '.';
-					// enter the room
-					fs += scores[tor]*(lvl+1);
-					r[tor][lvl] = c;
-				}
-			}
-		}
 	} while(was); // Try to move fish to its room as long as it possible
 	
 	// Check if everything set
@@ -146,33 +105,23 @@ ll dfs_bt(vector<vector<char>> r, vector<char> h, int RH) {
 			if(c == '.') continue;
 			if(k && r[i][k-1] != '.') continue; // cant move
 			int from = i*2+2;
-			// go left
-			for(int j=from;j>=0;j--){
-				if(h[j] != '.') break;
+			for(int j=0;j<h.size();j++){
 				if(j == 2 || j == 4 || j == 6 || j == 8) continue;
-				// move fish
-				r[i][k] = '.';
-				h[j] = c;
-				// check answer
-				int ls = (abs(from-j)+k+1)*scores[c-'A'];
-				s = min(s, dfs_bt(r,h,RH) + ls);
-				//move fish back
-				r[i][k] = c;
-				h[j] = '.';
-			}
-			// go right
-			for(int j=from;j<h.size();j++){
-				if(h[j] != '.') break;
-				if(j == 2 || j == 4 || j == 6 || j == 8) continue;
-				// move fish
-				r[i][k] = '.';
-				h[j] = c;
-				// check answer
-				int ls = (abs(from-j)+k+1)*scores[c-'A'];
-				s = min(s, dfs_bt(r,h, RH) + ls);
-				//move fish back
-				r[i][k] = c;
-				h[j] = '.';
+				bool good = true;
+				for(int l=j;l!=from;l+=(l<from ? 1 : -1)){
+					if(h[l] != '.') good = false;
+				}
+				if(good){
+					// move fish
+					r[i][k] = '.';
+					h[j] = c;
+					// check answer
+					int ls = (abs(from-j)+k+1)*scores[c-'A'];
+					s = min(s, dfs_bt(r,h,RH) + ls);
+					// move fish back
+					r[i][k] = c;
+					h[j] = '.';
+				}
 			}
 		}
 	}
