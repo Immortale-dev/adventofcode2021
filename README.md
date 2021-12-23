@@ -34,6 +34,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 20:** Pretty easy _constructive_ problem. Nothing special. Be aware of the first and last bit of enhance map. ;)
 * ✅**Day 21:** First part is simple _constructive_, but the second part is pretty nice _dp_ problem! I've truly enjoyed it. :']
 * ✅**Day 22:** Very nice _axis optimization_ problem! Beautiful! Don't forget to compile with `-O3` flag, as it takes ~10s to complete, added progress bar. :P
+* ✅**Day 23:** Pretty annoying _brute force_ problem... It looks not that hard from the first blance, but it requires a lot of coding and it's easy to screw a lot of things. Don't forget to compile with `-O3` falg, so the solutions runs in 1s.
 
 ## License
 MIT
