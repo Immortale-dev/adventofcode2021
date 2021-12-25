@@ -3,7 +3,7 @@
 using namespace std;
 
 #include "../helpers/string_helpers.cpp"
-#include "../helpers/bits.cpp"
+#include "./bits.cpp"
 
 typedef long long int ll;
 
