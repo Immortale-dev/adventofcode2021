@@ -36,6 +36,7 @@ g++ -o ./a.exe ./a.cpp
 * ✅**Day 22:** Very nice _axis optimization_ problem! Beautiful! Don't forget to compile with `-O3` flag, as it takes ~10s to complete, added progress bar. :P
 * ✅**Day 23:** Pretty annoying _brute force_ problem... It looks not that hard from the first blance, but it requires a lot of coding and it's easy to screw a lot of things. Don't forget to compile with `-O3` falg, so the solutions runs in 1s.
 * ✅**Day 24:** Ah, classic AOC problem where you need to figure out solution by analyzing the input data. Very nice problem! P.S. I figured out it, so you can just send your data as usual. ;) And don't forget to compile with `-O3`. :P
+* ✅**Day 25:** Some easy _constructive_ problem in the end! :)
 
 ## License
 MIT
